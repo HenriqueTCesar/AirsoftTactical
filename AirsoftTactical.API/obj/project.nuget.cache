@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "F8nnGetbFAk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

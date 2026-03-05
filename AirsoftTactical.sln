@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftTactical.API", "AirsoftTactical.API\AirsoftTactical.API.csproj", "{C47ADF7E-FE15-4C39-8A4C-D25EFB9C2210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftTactical.Application", "AirsoftTactical.Application\AirsoftTactical.Application.csproj", "{BC44EF45-F1DF-4877-AF96-A553CAA82495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftTactical.Domain", "AirsoftTactical.Domain\AirsoftTactical.Domain.csproj", "{657E477C-905C-4995-84CE-76877AD3B8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirsoftTactical.Infrastructure", "AirsoftTactical.Infrastructure\AirsoftTactical.Infrastructure.csproj", "{A9083B6D-B0EE-4ECB-AAE6-152EF958ADEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C47ADF7E-FE15-4C39-8A4C-D25EFB9C2210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47ADF7E-FE15-4C39-8A4C-D25EFB9C2210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47ADF7E-FE15-4C39-8A4C-D25EFB9C2210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47ADF7E-FE15-4C39-8A4C-D25EFB9C2210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC44EF45-F1DF-4877-AF96-A553CAA82495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC44EF45-F1DF-4877-AF96-A553CAA82495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC44EF45-F1DF-4877-AF96-A553CAA82495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC44EF45-F1DF-4877-AF96-A553CAA82495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657E477C-905C-4995-84CE-76877AD3B8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657E477C-905C-4995-84CE-76877AD3B8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657E477C-905C-4995-84CE-76877AD3B8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657E477C-905C-4995-84CE-76877AD3B8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9083B6D-B0EE-4ECB-AAE6-152EF958ADEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9083B6D-B0EE-4ECB-AAE6-152EF958ADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9083B6D-B0EE-4ECB-AAE6-152EF958ADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9083B6D-B0EE-4ECB-AAE6-152EF958ADEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
