@@ -1,28 +1,38 @@
 # AirsoftTactical - Sistema de Gestão de Operações CQB
 
-## Integrantes do Grupo
+## 🎯 CP2 - Persistência com EF Core e Camada de Infraestrutura
+
+Este projeto contempla a implementação da camada de persistência e acesso a dados para o sistema de gestão de Airsoft, utilizando **Entity Framework Core** e seguindo os princípios da **Clean Architecture**.
+
+## 👥 Integrantes do Grupo
 * **Henrique Teixeira Cesar** - RM: 563088 (Turma 2TDSPF)
 
-## Domínio Escolhido
+## 📖 Domínio Escolhido
 O projeto **AirsoftTactical** é uma WebAPI voltada para a gestão de campos de Airsoft, focada na modalidade CQB (Close Quarters Battle). O sistema gerencia o arsenal dos operadores, a organização de times e o agendamento de partidas.
 
-## Entidades Modeladas
-1. **Operador**: Representa o jogador, com validações de Nome, CallSign e CPF.
-2. **Equipamento**: Itens do arsenal (Rifles, Pistolas) vinculados a um Operador (Dono).
-3. **Campo**: Local físico onde ocorrem os jogos, com identificação de área tática.
-4. **Partida**: Evento agendado em um campo com limite de jogadores e data/hora.
-5. **Inscricao**: Gerencia o vínculo entre Operadores e Partidas (N:N), incluindo status de pagamento.
-6. **Time**: Agrupamento de jogadores com nome e Tag.
+## 🛠️ Tecnologias e SGBD
+* **Runtime**: .NET 10
+* **SGBD**: Oracle Database (Infraestrutura FIAP)
+* **ORM**: Entity Framework Core
+* **Arquitetura**: Clean Architecture (Domain, Application, Infrastructure, API)
 
-## Relacionamentos e Cardinalidades
-* **Operador (1) ↔ (N) Equipamento**: Um operador possui vários equipamentos; um equipamento pertence a um único dono (Obrigatório).
-* **Campo (1) ↔ (N) Partida**: Um campo sedia diversas partidas; uma partida ocorre em um único campo (Obrigatório).
-* **Operador (N) ↔ (N) Partida**: Relacionamento gerenciado pela entidade **Inscricao**.
-* **Time (1) ↔ (N) Operador**: Um time tem vários membros; um operador pode ou não estar em um time (**Opcional**).
+## 🗄️ Estrutura de Persistência
+1. **Mapeamento (Fluent API)**: Todas as entidades foram mapeadas utilizando `IEntityTypeConfiguration<T>`, garantindo a separação entre o modelo de domínio e as regras de banco.
+2. **Oracle Compatibility**: Implementado mapeamento customizado para tipos `bool` convertidos em `NUMBER(1)`, garantindo compatibilidade total com o Oracle.
+3. **Repository Pattern**: Implementação de repositórios (ex: `OperadorRepository`) injetados via interface na camada de Application.
+4. **Migrations**: Esquema de banco de dados versionado e gerado automaticamente.
 
-## Estrutura do Projeto
-Seguindo as boas práticas e o padrão:
-* **AirsoftTactical.Domain**: Contém as Entidades, Enums e a BaseEntity com lógica de validação nos construtores.
-* **AirsoftTactical.Application**: Camada de lógica de aplicação estruturada.
-* **AirsoftTactical.Infrastructure**: Camada de dados.
-* **AirsoftTactical.API**: Projeto WebAPI em .NET 10.
+## 🏗️ Estrutura do Projeto
+* **AirsoftTactical.Domain**: Entidades de negócio e interfaces base.
+* **AirsoftTactical.Application**: Interfaces de repositório e contratos de serviço.
+* **AirsoftTactical.Infrastructure**: Implementação do `ApplicationDbContext`, configurações de Fluent API, Migrations e Repositórios.
+* **AirsoftTactical.API**: Ponto de entrada, Controllers e configuração de Injeção de Dependência (DI).
+
+## 🚀 Como Executar o Projeto
+
+1. **Configurar a Connection String**:
+   No arquivo `appsettings.json` do projeto **API**, insira suas credenciais do Oracle:
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Data Source=oracle.fiap.com.br:1521/orcl;User Id=RMXXXXXX;Password=XXXXXX;"
+   }
