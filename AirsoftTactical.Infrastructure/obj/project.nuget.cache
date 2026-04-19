@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "CkMqNfTm5Ak=",
   "success": true,
   "projectFilePath": "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
+=======
+  "dgSpecHash": "FQa1k+jL3is=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
   "expectedPackageFiles": [
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.6\\microsoft.entityframeworkcore.10.0.6.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.6\\microsoft.entityframeworkcore.abstractions.10.0.6.nupkg.sha512",
@@ -17,8 +23,13 @@
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.6\\microsoft.extensions.logging.abstractions.10.0.6.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.extensions.options\\10.0.6\\microsoft.extensions.options.10.0.6.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.6\\microsoft.extensions.primitives.10.0.6.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\oracle.entityframeworkcore\\10.23.26200\\oracle.entityframeworkcore.10.23.26200.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\oracle.manageddataaccess.core\\23.26.200\\oracle.manageddataaccess.core.23.26.200.nupkg.sha512",
+=======
+    "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\oracle.entityframeworkcore\\10.23.26000\\oracle.entityframeworkcore.10.23.26000.nupkg.sha512",
+    "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\oracle.manageddataaccess.core\\23.26.0\\oracle.manageddataaccess.core.23.26.0.nupkg.sha512",
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
@@ -26,5 +37,22 @@
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
   ],
+<<<<<<< HEAD
   "logs": []
+=======
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "AirsoftTactical.Infrastructure depends on Oracle.EntityFrameworkCore (>= 10.0.6) but Oracle.EntityFrameworkCore 10.0.6 was not found. Oracle.EntityFrameworkCore 10.23.26000 was resolved instead.",
+      "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
+      "libraryId": "Oracle.EntityFrameworkCore",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
 }

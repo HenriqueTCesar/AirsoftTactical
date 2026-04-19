@@ -231,11 +231,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Oracle.EntityFrameworkCore/10.23.26200": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "[10.0.0, 11.0.0)",
           "Oracle.ManagedDataAccess.Core": "[23.26.200, 24.0.0)"
+=======
+      "Oracle.EntityFrameworkCore/10.23.26000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "[10.0.0, 11.0.0)",
+          "Oracle.ManagedDataAccess.Core": "[23.26.0, 24.0.0)"
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
         },
         "compile": {
           "lib/net10.0/Oracle.EntityFrameworkCore.dll": {}
@@ -244,7 +252,11 @@
           "lib/net10.0/Oracle.EntityFrameworkCore.dll": {}
         }
       },
+<<<<<<< HEAD
       "Oracle.ManagedDataAccess.Core/23.26.200": {
+=======
+      "Oracle.ManagedDataAccess.Core/23.26.0": {
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
         "type": "package",
         "dependencies": {
           "System.Diagnostics.PerformanceCounter": "8.0.0",
@@ -396,6 +408,32 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+<<<<<<< HEAD
+=======
+      },
+      "AirsoftTactical.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AirsoftTactical.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AirsoftTactical.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirsoftTactical.Application.dll": {}
+        }
+      },
+      "AirsoftTactical.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/AirsoftTactical.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirsoftTactical.Domain.dll": {}
+        }
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
       }
     }
   },
@@ -787,25 +825,43 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Oracle.EntityFrameworkCore/10.23.26200": {
       "sha512": "LZJkz3mQ/oLrAk4T0OUsLdWVeG6KVJCgu31EWZzlb9j6O3KCvQWp0yr2F4hIQHe9y8XH8mLAyotn2jWW+ogjFQ==",
       "type": "package",
       "path": "oracle.entityframeworkcore/10.23.26200",
+=======
+    "Oracle.EntityFrameworkCore/10.23.26000": {
+      "sha512": "StGnULIzSFlnsA5dbuM7AGiG5QRtycZqqQTTDubrZmwESW/75UHk8lStmBgX97HmuQlNb+dIeyPHIz3PHx7l1g==",
+      "type": "package",
+      "path": "oracle.entityframeworkcore/10.23.26000",
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "README.md",
         "lib/net10.0/Oracle.EntityFrameworkCore.dll",
+<<<<<<< HEAD
         "oracle.entityframeworkcore.10.23.26200.nupkg.sha512",
+=======
+        "oracle.entityframeworkcore.10.23.26000.nupkg.sha512",
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
         "oracle.entityframeworkcore.nuspec",
         "oracle.png"
       ]
     },
+<<<<<<< HEAD
     "Oracle.ManagedDataAccess.Core/23.26.200": {
       "sha512": "l+k3UOpWfv7g2F4/FnenQlwMMvVk8LLlVgAn1qdl3Seyna2kkyogSHS0ceBGMKNT7KjC79rpIyFmt8Q0QveB3A==",
       "type": "package",
       "path": "oracle.manageddataaccess.core/23.26.200",
+=======
+    "Oracle.ManagedDataAccess.Core/23.26.0": {
+      "sha512": "+F+d0hTbbqRll5A0T/8mPRy6erBvs3gnaBgktVTYHFZEJkjR+6wErh+4L34QMZIy9mP6osPbptcQJWweH6NrIg==",
+      "type": "package",
+      "path": "oracle.manageddataaccess.core/23.26.0",
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -816,7 +872,11 @@
         "info.txt",
         "lib/net8.0/Oracle.ManagedDataAccess.dll",
         "lib/netstandard2.1/Oracle.ManagedDataAccess.dll",
+<<<<<<< HEAD
         "oracle.manageddataaccess.core.23.26.200.nupkg.sha512",
+=======
+        "oracle.manageddataaccess.core.23.26.0.nupkg.sha512",
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
         "oracle.manageddataaccess.core.nuspec",
         "oracle.png"
       ]
@@ -1043,13 +1103,34 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+<<<<<<< HEAD
+=======
+    },
+    "AirsoftTactical.Application/1.0.0": {
+      "type": "project",
+      "path": "../AirsoftTactical.Application/AirsoftTactical.Application.csproj",
+      "msbuildProject": "../AirsoftTactical.Application/AirsoftTactical.Application.csproj"
+    },
+    "AirsoftTactical.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AirsoftTactical.Domain/AirsoftTactical.Domain.csproj",
+      "msbuildProject": "../AirsoftTactical.Domain/AirsoftTactical.Domain.csproj"
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore >= 10.0.6",
       "Microsoft.EntityFrameworkCore.Relational >= 10.0.6",
       "Oracle.EntityFrameworkCore >= 10.23.26200"
+=======
+      "AirsoftTactical.Application >= 1.0.0",
+      "AirsoftTactical.Domain >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 10.0.6",
+      "Microsoft.EntityFrameworkCore.Relational >= 10.0.6",
+      "Oracle.EntityFrameworkCore >= 10.0.6"
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
     ]
   },
   "packageFolders": {
@@ -1076,7 +1157,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Application\\AirsoftTactical.Application.csproj": {
+              "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Application\\AirsoftTactical.Application.csproj"
+            },
+            "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Domain\\AirsoftTactical.Domain.csproj": {
+              "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Domain\\AirsoftTactical.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1105,7 +1193,11 @@
           },
           "Oracle.EntityFrameworkCore": {
             "target": "Package",
+<<<<<<< HEAD
             "version": "[10.23.26200, )"
+=======
+            "version": "[10.0.6, )"
+>>>>>>> c9507308ff611d713bb5aee22e989ab5e92921b3
           }
         },
         "imports": [
@@ -1401,5 +1493,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "AirsoftTactical.Infrastructure depends on Oracle.EntityFrameworkCore (>= 10.0.6) but Oracle.EntityFrameworkCore 10.0.6 was not found. Oracle.EntityFrameworkCore 10.23.26000 was resolved instead.",
+      "libraryId": "Oracle.EntityFrameworkCore",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
