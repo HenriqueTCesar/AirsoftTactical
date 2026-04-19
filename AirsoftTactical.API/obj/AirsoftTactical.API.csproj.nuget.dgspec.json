@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj": {}
+    "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj": {
+    "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj",
         "projectName": "AirsoftTactical.API",
-        "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj",
+        "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.API\\AirsoftTactical.API.csproj",
         "packagesPath": "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.API\\obj\\",
+        "outputPath": "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henrique Teixeira\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -47,6 +47,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.6, )"
             }
           },
           "imports": [
@@ -68,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Henrique Teixeira\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

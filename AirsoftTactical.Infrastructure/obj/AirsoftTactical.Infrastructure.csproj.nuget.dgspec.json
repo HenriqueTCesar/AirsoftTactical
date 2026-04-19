@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj": {}
+    "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj": {
+    "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
         "projectName": "AirsoftTactical.Infrastructure",
-        "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.Infrastructure\\AirsoftTactical.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Henrique Teixeira\\Desktop\\AirsoftTactical\\AirsoftTactical.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henrique Teixeira\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,11 +38,25 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.23.26200, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Henrique Teixeira\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
