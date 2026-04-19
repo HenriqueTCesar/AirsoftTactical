@@ -6,4 +6,15 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AirsoftTactical.Application\AirsoftTactical.Application.csproj" />
+      <ProjectReference Include="..\AirsoftTactical.Domain\AirsoftTactical.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.6" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.6" />
+      <PackageReference Include="Oracle.EntityFrameworkCore" Version="10.0.6" />
+    </ItemGroup>
+
 </Project>

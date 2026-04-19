@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "AirsoftTactical.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/AirsoftTactical.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirsoftTactical.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AirsoftTactical.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AirsoftTactical.Domain/AirsoftTactical.Domain.csproj",
+      "msbuildProject": "../AirsoftTactical.Domain/AirsoftTactical.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "AirsoftTactical.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Domain\\AirsoftTactical.Domain.csproj": {
+              "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\FIAP\\.NET-2026\\AirsoftTactical\\AirsoftTactical.Domain\\AirsoftTactical.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -44,7 +67,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -65,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Henrique Teixeira\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
