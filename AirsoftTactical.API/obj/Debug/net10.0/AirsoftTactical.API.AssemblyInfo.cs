@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirsoftTactical.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a7f542df5af577fc62ed0c36240ced997a43f4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95e6d66dc56591a1a6d1fa0fdabbf7a6f7f3ebc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirsoftTactical.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirsoftTactical.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
